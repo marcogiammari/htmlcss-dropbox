@@ -60,13 +60,14 @@ h1 {
 
 
 /* main */
-.jumbo ~ section {
+section {
     padding-bottom: 10rem;
 }
 
-.jumbo {
+.jumbo, .free-trial-section {
     background-color: #b4d0e7;
     margin-bottom: 8rem;
+    padding-bottom: 0;
 }
 
 .main-heading {
@@ -131,10 +132,6 @@ input[type="radio"] {
     margin-bottom: 5rem;
 }
 
-.business-feature .feature-txt {
-    
-}
-
 .business-feature p {
     margin-top: 2.5rem;
     line-height: 20px;
@@ -153,6 +150,18 @@ input[type="radio"] {
 
 .our-clients > .client-review-box {
     overflow-y: auto;
+}
+
+.our-clients {
+    padding-bottom: 0;
+}
+
+.free-trial-section > div {
+    height: 360px;
+}
+
+.free-trial-section h2 {
+    color: #61082b;
 }
 
 /* footer */
