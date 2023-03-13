@@ -5,6 +5,11 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+button {
+    all: unset;
+    padding: .75rem .75rem;
+}
+
 /* ---helpers--- */
 .flex {display: flex;}
 .flex-col {flex-direction: column;}
@@ -20,10 +25,9 @@
 .h100 {height: 100%;}
 .col33 {width: calc(100% / 3);}
 .col30 {width: 30%;}
-.boxed-large {}
+.col70 {width: 70%;}
+.boxed-large {width: 60%; margin: auto}
 .boxed-tight {}
-.space-grotesque-font {font-family: 'Space Grotesk', sans-serif;}
-
 
 /* header */
 
@@ -42,13 +46,35 @@
     padding: 0 1.25rem;
 }
 
-header button {
-    all: unset;
-    padding: .75rem .75rem;
-}
+
 
 
 /* main */
 
+.jumbo {
+    background-color: #b4d0e7;
+    margin-bottom: 8rem;
+}
 
+.main-heading {
+    font-size: 2.3rem;
+    padding: 5rem 0 3rem;
+}
+
+.jumbo-img {
+    width: 70%;
+}
+
+.jumbo-text p {
+    margin-bottom: 2rem;
+}
+
+.jumbo-text button {
+    margin-bottom: 4rem;
+}
+
+.jumbo-text i {
+    font-size: 3rem;
+    padding-top: 5rem;
+}
 /* footer */
