@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
+    white-space: 1px;
 }
 
 button {
@@ -14,14 +15,11 @@ h1 {
     font-weight: 900;
 }
 
-h2, h3, h4, h5, h6 {
-    letter-spacing: 1px;
-}
-
 /* ---helpers--- */
 .flex {display: flex;}
 .flex-col {flex-direction: column;}
 .just-cont-space-between {justify-content: space-between;}
+.just-cont-center {justify-content: center;}
 .align-items-center {align-items: center;}
 .flex-wrap {flex-wrap: wrap;}
 .txt-white {color: #ffffff;}
@@ -30,6 +28,7 @@ h2, h3, h4, h5, h6 {
 .border-grey {border: 1px solid #d0d0d3}
 .bg-blue {background-color: #297afe;}
 .bg-black {background-color: #1e1919;}
+.w50 {width: 50%;}
 .w100 {width: 100%;}
 .h100 {height: 100%;}
 .col33 {width: calc(100% / 3);}
@@ -61,6 +60,9 @@ h2, h3, h4, h5, h6 {
 
 
 /* main */
+.jumbo ~ section {
+    padding-bottom: 10rem;
+}
 
 .jumbo {
     background-color: #b4d0e7;
@@ -125,5 +127,32 @@ input[type="radio"] {
     padding: 3.5rem 3rem;
 }
 
+.business-feature {
+    margin-bottom: 5rem;
+}
+
+.business-feature .feature-txt {
+    
+}
+
+.business-feature p {
+    margin-top: 2.5rem;
+    line-height: 20px;
+    font-size: 15px;
+}
+
+.our-clients > div {
+    height: 33vw;
+    border: 1px solid red;
+}
+
+.our-clients img {
+    display: block;
+    width: 50%;
+}
+
+.our-clients > .client-review-box {
+    overflow-y: auto;
+}
 
 /* footer */
