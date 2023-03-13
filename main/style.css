@@ -26,6 +26,7 @@ h1 {
 .txt-black {color: #1e1919}
 .txt-blue {color: #297afe}
 .border-grey {border: 1px solid #d0d0d3}
+.bg-white {background-color: #ffffff;}
 .bg-blue {background-color: #297afe;}
 .bg-black {background-color: #1e1919;}
 .w50 {width: 50%;}
@@ -164,4 +165,14 @@ input[type="radio"] {
     color: #61082b;
 }
 
+
+.faq {
+    font-weight: bold;
+    padding: 2.5rem;
+    padding-left: 0;
+}
+
+.faq-box {
+    margin-top: 4.25rem;
+}
 /* footer */
