@@ -19,6 +19,7 @@ button {
 .txt-white {color: #ffffff;}
 .txt-black {color: #1e1919}
 .txt-blue {color: #297afe}
+.border-grey {border: 1px solid #d0d0d3}
 .bg-blue {background-color: #297afe;}
 .bg-black {background-color: #1e1919;}
 .w100 {width: 100%;}
@@ -27,7 +28,7 @@ button {
 .col30 {width: 30%;}
 .col70 {width: 70%;}
 .boxed-large {width: 60%; margin: auto}
-.boxed-tight {}
+.boxed-tight {width: 50%; margin: auto;}
 
 /* header */
 
@@ -76,5 +77,33 @@ button {
 .jumbo-text i {
     font-size: 3rem;
     padding-top: 5rem;
+}
+
+h2 {
+    font-size: 30px;
+}
+
+input[type="radio"] {
+    margin: 4.375rem 0 2.5rem;
+}
+
+.business-plans > .col30 {
+    min-height: 950px;
+}
+
+.business-plans .client-type {
+    border-bottom: 1px solid #d0d0d3;
+    text-align: center;
+    padding: 5px;
+}
+
+.business-plans .plan-info {
+    padding: 2.4rem 2rem;
+}
+
+.large-col {
+    width: 100%;
+    min-height: 256px;
+    margin: 3rem 0;
 }
 /* footer */
