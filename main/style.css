@@ -10,6 +10,14 @@ button {
     padding: .75rem .75rem;
 }
 
+h1 {
+    font-weight: 900;
+}
+
+h2, h3, h4, h5, h6 {
+    letter-spacing: 1px;
+}
+
 /* ---helpers--- */
 .flex {display: flex;}
 .flex-col {flex-direction: column;}
@@ -26,6 +34,8 @@ button {
 .h100 {height: 100%;}
 .col33 {width: calc(100% / 3);}
 .col30 {width: 30%;}
+.col40 {width: 40%;}
+.col60 {width: 60%;}
 .col70 {width: 70%;}
 .boxed-large {width: 60%; margin: auto}
 .boxed-tight {width: 50%; margin: auto;}
@@ -106,4 +116,14 @@ input[type="radio"] {
     min-height: 256px;
     margin: 3rem 0;
 }
+
+.find-partner {
+    min-height: 515px;
+}
+
+.find-partner .txt-box {
+    padding: 3.5rem 3rem;
+}
+
+
 /* footer */
