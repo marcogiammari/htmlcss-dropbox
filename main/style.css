@@ -9,12 +9,21 @@ button {
     all: unset;
     padding: .75rem .75rem;
     text-align: center;
+    cursor: pointer;
 }
 
 h1 {
     font-weight: 900;
     font-size: 4.5rem;
     letter-spacing: 1px;
+}
+
+h2 {
+    font-size: 2.5rem;
+}
+
+h3 {
+    font-size: 1.375rem;
 }
 
 p, label, span, button {
@@ -45,8 +54,9 @@ p, label, span, button {
 
 
 /* main */
+
 section {
-    padding-bottom: 10rem;
+    padding-bottom: 7rem;
 }
 
 .jumbo, .free-trial-section {
@@ -83,10 +93,6 @@ section {
 .jumbo-text i {
     font-size: 3rem;
     padding-top: 3rem;
-}
-
-h2 {
-    font-size: 30px;
 }
 
 input[type="radio"] {
@@ -144,6 +150,16 @@ input[type="radio"] + label {
 
 .find-partner .txt-box {
     padding: 3.5rem 3rem;
+    gap: 1.5rem;
+}
+
+.find-partner button {
+    border: 1px solid #222;
+    width: 50%;
+}
+
+.business-features-wrapper {
+    margin-top: 5.5rem;
 }
 
 .business-feature {
@@ -151,13 +167,24 @@ input[type="radio"] + label {
 }
 
 .business-feature p {
-    margin-top: 2.5rem;
-    line-height: 20px;
-    font-size: 15px;
+    margin-top: 2rem;
 }
 
-.our-clients > div {
-    height: 33vw;
+.find-more-link {
+    padding: 4rem 0 2rem;
+}
+
+.our-clients .logo-side-box {
+    width: 30vw;
+    height: 30vw;
+}
+
+.our-clients .client-review-box {
+    width: calc(100% - 60vw);
+    height: 30vw;
+    overflow-y: auto;
+    padding: 50px;
+    gap: 3rem;
 }
 
 .our-clients img {
@@ -165,12 +192,12 @@ input[type="radio"] + label {
     width: 50%;
 }
 
-.our-clients > .client-review-box {
-    overflow-y: auto;
-}
-
 .our-clients {
     padding-bottom: 0;
+}
+
+.logo-side-box .box-shadowed {
+    box-shadow: 0 0 0 1rem #ffffff99 inset;
 }
 
 .free-trial-section > div {
@@ -179,6 +206,7 @@ input[type="radio"] + label {
 
 .free-trial-section h2 {
     color: #61082b;
+    margin-top: 2.5rem;
 }
 
 
@@ -218,3 +246,6 @@ footer {
 .footer-bar div.lang {
     padding-top: 7rem;
 }
+
+
+
