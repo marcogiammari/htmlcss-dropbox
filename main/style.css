@@ -31,6 +31,15 @@ p, label, span, button {
     line-height: 1.3rem;
 }
 
+a {
+    all: unset;
+}
+
+a:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 /* header */
 
 .nav-bar {
@@ -50,16 +59,13 @@ p, label, span, button {
     padding: 0 1.25rem;
 }
 
-
-
-
 /* main */
 
 section {
     padding-bottom: 7rem;
 }
 
-.jumbo, .free-trial-section {
+.jumbo {
     background-color: #b4d0e7;
     margin-bottom: 10rem;
     padding-bottom: 0;
@@ -200,8 +206,8 @@ input[type="radio"] + label {
     box-shadow: 0 0 0 1rem #ffffff99 inset;
 }
 
-.free-trial-section > div {
-    height: 360px;
+.free-trial-section {
+    padding: 8.75rem 0;
 }
 
 .free-trial-section h2 {
@@ -209,11 +215,19 @@ input[type="radio"] + label {
     margin-top: 2.5rem;
 }
 
+.faq-section {
+    padding: 10rem 0 9rem;
+}
 
 .faq {
     font-weight: bold;
     padding: 2.5rem;
     padding-left: 0;
+    border-top: 1px solid #d0d0d3;    
+}
+
+.faq:last-child {
+    border-bottom: 1px solid #d0d0d3;
 }
 
 .faq-box {
@@ -227,7 +241,7 @@ footer {
 }
 
 .footer-bar {
-    padding: 6.5rem;
+    padding: 6.5rem 0;
     border-bottom: #ffffff;
 }
 
@@ -239,13 +253,14 @@ footer {
     padding-bottom: 1.2rem;
 }
 
-.footer-bar div.flex-col hr {
+.footer-bar hr {
     width: 50%;
+    margin: 7rem 0 4rem;
 }
 
-.footer-bar div.lang {
-    padding-top: 7rem;
+.footer-bar select {
+    background: transparent;
+    border: none;
 }
-
 
 
