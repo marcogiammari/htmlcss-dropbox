@@ -3,7 +3,9 @@
 .flex-col {flex-direction: column;}
 .just-cont-space-between {justify-content: space-between;}
 .just-cont-center {justify-content: center;}
+.just-cont-end {justify-content: flex-end;}
 .align-items-center {align-items: center;}
+.align-items-start {align-items: flex-start;}
 .flex-wrap {flex-wrap: wrap;}
 .txt-white {color: #ffffff;}
 .txt-black {color: #1e1919}

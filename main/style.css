@@ -8,12 +8,18 @@
 button {
     all: unset;
     padding: .75rem .75rem;
+    text-align: center;
 }
 
 h1 {
     font-weight: 900;
     font-size: 4.5rem;
     letter-spacing: 1px;
+}
+
+p, label, span, button {
+    font-size: .9rem;
+    line-height: 1.3rem;
 }
 
 /* header */
@@ -105,14 +111,25 @@ input[type="radio"] + label {
     padding: 2.4rem 2rem;
 }
 
+.business-plans .col30:nth-last-of-type(1n+2) button {
+    margin: 2rem 0 1rem;
+}
+
 .business-plans .plan-info p {
     padding: 0.8rem 0;
-    font-size: .9rem;
 }
 
 .client-type, .plan-info span {
     padding-bottom: 2rem;
-    font-size: .9rem;
+}
+
+.business-plans hr {
+    width: 22%;
+    margin: 3rem 0 3.5rem;
+}
+
+.business-plans h4 {
+    margin-bottom: 1rem;
 }
 
 .large-col {
