@@ -101,9 +101,24 @@ section {
 }
 
 input[type="radio"] {
-    margin: 4rem 0 2.5rem;
+    appearance: none;
+    border: 5px solid white;
+    border-radius: 50%;
+    outline: 3px solid white;
+    box-shadow: 0 0 0px 4px grey;
+    cursor: pointer;
+    margin-right: 1rem;
 }
 
+.radio-buttons {
+    margin: 4rem 1rem 4rem .5rem;
+}
+
+input[type="radio"]:checked {
+    outline: 3px solid #297afe;
+    border: 5px solid white;
+
+}
 
 input[type="radio"] + label {
     padding-right: 2.8rem;
@@ -240,12 +255,12 @@ input[type="radio"] + label {
     transition: 3s;
 }
 
-.faq:active + .hidden-answer {
+.faq:hover + .hidden-answer {
     display: block;
     transition: 1s;
 }
 
-.faq:active i {
+.faq:hover i {
     transform: rotate(180deg);
     transition: 0.5s;
 }
