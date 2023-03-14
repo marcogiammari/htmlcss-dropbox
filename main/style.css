@@ -158,10 +158,6 @@ input[type="radio"] + label {
     margin: 3rem 0;
 }
 
-.find-partner {
-    min-height: 515px;
-}
-
 .find-partner .txt-box {
     padding: 3.5rem 3rem;
     gap: 1.5rem;
@@ -245,12 +241,10 @@ input[type="radio"] + label {
 .hidden-answer {
     display: none;
     padding: 1rem 0;
-    transition: 3s;
 }
 
 .faq:hover + .hidden-answer {
     display: block;
-    transition: 1s;
 }
 
 .faq:hover i {
@@ -260,9 +254,7 @@ input[type="radio"] + label {
 
 /* footer */
 
-footer {
-    min-height: 570px;
-}
+
 
 .footer-bar {
     padding: 6.5rem 0;
