@@ -1,0 +1,37 @@
+/* ---helpers--- */
+.flex {display: flex;}
+.flex-col {flex-direction: column;}
+.just-cont-space-between {justify-content: space-between;}
+.just-cont-center {justify-content: center;}
+.align-items-center {align-items: center;}
+.flex-wrap {flex-wrap: wrap;}
+.txt-white {color: #ffffff;}
+.txt-black {color: #1e1919}
+.txt-blue {color: #297afe}
+.txt-grey {color: #d0d0d3}
+.txt-darkgrey {color: #9f9d9e}
+.border-grey {border: 1px solid #d0d0d3}
+.bg-white {background-color: #ffffff;}
+.bg-blue {background-color: #297afe;}
+.bg-black {background-color: #1e1919;}
+.bg-green {background-color: #a2d39b;}
+.bg-bordeaux {background-color: #61082b;}
+.bg-skyblue {background-color: #0093ce;}
+.bg-brightred {background-color: #ff1c1c;}
+.bg-darkred {background-color: #d5001f;}
+.bg-paleblue {background-color: #b4d0e7;}
+.bg-darkblue {background-color: #0d2481;}
+.bg-yellow {background-color: #ffd830;}
+.bg-grey {background-color: #f5f5f5;}
+.w20 {width: 20%;}
+.w50 {width: 50%;}
+.w100 {width: 100%;}
+.h50 {height: 50%;}
+.h100 {height: 100%;}
+.col33 {width: calc(100% / 3);}
+.col30 {width: 30%;}
+.col40 {width: 40%;}
+.col60 {width: 60%;}
+.col70 {width: 70%;}
+.boxed-large {width: 60%; margin: auto}
+.boxed-tight {width: 52vw; margin: auto;}
