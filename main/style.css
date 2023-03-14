@@ -72,19 +72,12 @@ section {
 
 .main-heading {
     font-size: 2.3rem;
-    padding: 5rem 0 3rem;
+    padding: 5rem 0 0;
 }
 
-.jumbo-img-wrapper {
-    width: 70%;
+.jumbo-container {
     position: relative;
-}
-
-.jumbo-img-wrapper img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 105%;
+    top: 5rem;
 }
 
 .jumbo-text {
