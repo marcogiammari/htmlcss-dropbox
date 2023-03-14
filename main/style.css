@@ -36,7 +36,7 @@ a {
 }
 
 a:hover {
-    text-decoration: underline;
+    text-decoration: underline #297afe;
     cursor: pointer;
 }
 
@@ -66,7 +66,6 @@ section {
 }
 
 .jumbo {
-    background-color: #b4d0e7;
     margin-bottom: 10rem;
     padding-bottom: 0;
 }
@@ -104,6 +103,7 @@ section {
 input[type="radio"] {
     margin: 4rem 0 2.5rem;
 }
+
 
 input[type="radio"] + label {
     padding-right: 2.8rem;
@@ -232,6 +232,22 @@ input[type="radio"] + label {
 
 .faq-box {
     margin-top: 4.25rem;
+}
+
+.hidden-answer {
+    display: none;
+    padding: 1rem 0;
+    transition: 3s;
+}
+
+.faq:active + .hidden-answer {
+    display: block;
+    transition: 1s;
+}
+
+.faq:active i {
+    transform: rotate(180deg);
+    transition: 0.5s;
 }
 
 /* footer */
