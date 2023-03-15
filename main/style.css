@@ -47,11 +47,17 @@ a:hover {
 
 /* header */
 
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
 .nav-bar {
     height: 80px;
-    position: sticky;
     padding: 0 1rem;
     box-shadow: 1px 1px 2px 2px #d0d0d3;
+    width: 100%;    
 }
 
 .nav-bar ul {
@@ -70,7 +76,6 @@ section {
 }
 
 .jumbo {
-    margin-bottom: 10rem;
     padding-bottom: 0;
 }
 
@@ -95,6 +100,10 @@ section {
 .jumbo-text i {
     font-size: 3rem;
     padding-top: 3rem;
+}
+
+#business-plans-section {
+    padding-top: 10rem;
 }
 
 input[type="radio"] {
@@ -133,6 +142,17 @@ input[type="radio"] + label {
 
 .business-plans .plan-info {
     padding: 2.4rem 2rem;
+}
+
+main ul {
+    list-style-image: url(../img/check-solid.svg);
+    list-style-position: outside;
+    padding-left: 1em;
+}
+
+main li {
+    font-size: .9rem;
+    margin: 1rem 0;
 }
 
 .business-plans .col30:nth-last-of-type(1n+2) button {
@@ -288,15 +308,7 @@ input[type="radio"] + label {
 /* UNDORDERED LIST CON ICONE MARKERS */
 
 
-main ul {
-    list-style-image: url(../img/check-solid.svg);
-    list-style-position: inside;
-}
 
-main li {
-    font-size: .9rem;
-    margin: 1rem 0;
-}
 
 /* main ul li::before {   
     font-family: 'FontAwesome';
