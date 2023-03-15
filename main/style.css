@@ -337,3 +337,10 @@ main li {
 .dropdown-element:hover + .dropdown-content {
     display: block;
 } */
+
+
+
+.icon-aside {
+    align-items: baseline;
+    gap: .3em;
+}
